@@ -5908,6 +5908,7 @@ td.visible-print {
 }
 body {
   background-color: #eeeeee;
+  padding-bottom: 70px;
 }
 .jumbotron {
   text-align: center;
