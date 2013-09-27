@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  .jumbotron
+    .container
+      h1 Need A Policy?
+      .policy
+        - if (special)
+          h1.special=special
+        - else
+          h1=action
+          h1=target
+      a.btn.btn-primary.btn-lg(href="/") Meh. Spin the policy wheel again!
